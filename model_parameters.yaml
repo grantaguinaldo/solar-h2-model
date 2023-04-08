@@ -1,0 +1,92 @@
+general_parameters:
+  discount_rate_unitless: 0.054
+  lifetime_yrs: 20
+  retail_electricty_cost_d_mwh: 120
+  production_commitment_lb_unitless: 0.95
+  model_year: 2020
+
+energy_storage_parameters:
+  power_capex_dpkW: 589
+  energy_capex_dpkWh: 206
+  annual_cap_cost_dMWyr: 144989.8042
+  fom_dMWyr: 7873
+  vom_dMWh: 2.7
+  st_eff_chg: 0.96
+  st_eff_dischg: 0.96
+  lifetime: 20
+  wacc: 0.081
+  crf: 0.102611326
+  cap_cost_dpkWh: 353.25
+  power_to_energy_ratio: 0.25
+  max_duration_hrs: 100
+
+pv_parameters:
+  cap_cost_dkW: 850
+  annual_cap_cost_dMWyr: 87220
+  fom_pct_capex: 0.01
+  fom_dMWyr: 8500
+  vom_dMWh: 0
+  inv_cap_cost_dkW: 60
+  annual_inv_cap_cost_dMWyr: 6156.679583
+  inv_eff: 0.96
+  wacc: 0.081
+  crf: 0.102611326
+  lifetime: 20
+
+hydrogen_storage_parameters:
+  aboveground:
+    pressure_bar: 100
+    cap_cost_st_dkg: 516
+    annual_cap_cost_st_dkgyr: 52.9474
+    st_fom_pct_capex: 0.0100
+    cap_cost_comp_dkW: 1200.0000
+    annual_cap_cost_comp_dMWyr: 123133.5917
+    comp_spec_power_kWhpkg: 1.00
+    comp_fom_pct_capex: 0.04
+    lifetime: 20
+    mass_stored_kg: 1000
+    lifetime: 20
+    wacc: 0.081
+    crf: 0.102611326
+  underground:
+    pressure_bar: 100
+    cap_cost_st_dkg: 516
+    annual_cap_cost_st_dkgyr: 52.9474
+    st_fom_pct_capex: 0.0100
+    cap_cost_comp_dkW: 1200.0000
+    annual_cap_cost_comp_dMWyr: 123133.5917
+    comp_spec_power_kWhpkg: 1.00
+    comp_fom_pct_capex: 0.04
+    lifetime: 20
+    mass_stored_kg: 1000
+    lifetime: 20
+    wacc: 0.081
+    crf: 0.102611326
+
+hydrogen_ely_parameters:
+  pem:
+    Pressure_bar: 30
+    CapCost_dkW: 800.0000
+    AnnualCapCost_dMWyr: 82089.0611
+    FOMCost_dMWyr: 56000.0000
+    FOM_pct_CAPEX: 0.0700
+    VOMCost_dMWh: 0
+    ElySpecPower_kWhkg: 57.51915709
+    Lifetime_years: 20
+    Water_cost_d_per_kg_H2: 0.0149
+    Lifetime: 20
+    WACC: 0.081
+    CRF: 0.102611326
+  alk:
+    Pressure_bar: 30
+    CapCost_dkW: 800.0000
+    AnnualCapCost_dMWyr: 82089.0611
+    FOMCost_dMWyr: 56000.0000
+    FOM_pct_CAPEX: 0.0700
+    VOMCost_dMWh: 0
+    ElySpecPower_kWhkg: 57.51915709
+    Lifetime_years: 20
+    Water_cost_d_per_kg_H2: 0.0149
+    Lifetime: 20
+    WACC: 0.081
+    CRF: 0.102611326
